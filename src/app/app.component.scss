@@ -1,8 +1,7 @@
 .container {
     display: grid;
-    grid-template-columns: 20% 1fr;
-    height: 100%;
-    width: 100vw;
+    grid-template-columns: 15% 1fr;
+    overflow: hidden;
 
     .container__menu {
         border: 1px solid green;
@@ -10,5 +9,6 @@
 
     .container__outlet {
         border: 1px solid red;
+        overflow: auto;
     }
 }
